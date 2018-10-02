@@ -28,10 +28,14 @@
       view          Open URL in browser, as seen by Scrapy
 
     Use "scrapy <command> -h" to see more info about a command
+    
 2.为了运行本项目，下载本项目并解压，打开命令行窗口，cd至对应目录  your/path/to/github
+
 3.输入命令scrapy crawl githubSpider 运行爬虫
     注：为了将项目的信息保存在表格中，请在命令最后加上 -o <文件名>.csv
           如scrapy crawl githubSpider -o test.csv
+          
+          
 4.根据提示，输入github用户的id，即可自动运行，运行完成后，csv文件保存在当前目录，即your/path/to/github，
   该用户的所有项目代码包保存在  your/path/to/github/Downloads/<用户id>  文件夹下
 
